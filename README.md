@@ -250,8 +250,6 @@ Year: 2026
 
 ---
 
-## License
 
-[Add your license here]
 
 
