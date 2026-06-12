@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="iwso221h@csnhr.nhr.fau.de:22 key (2)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="iwso221h@csnhr.nhr.fau.de:22 key">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hpc/iwso/iwso221h/shoulder-rag-hpc" local="$PROJECT_DIR$/../Shoulder_RAG_HPC" />
+            <mapping deploy="" local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="iwso221h@csnhr.nhr.fau.de:22 key (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hpc/iwso/iwso221h/Shoulder-RAG-HPC" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

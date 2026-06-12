@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_questions": 1,
+    "failed_to_answer": 0,
+    "retrieval_accuracy_pct": 0.0,
+    "answer_letter_accuracy_pct": 0.0,
+    "answer_text_accuracy_pct": 0.0,
+    "fully_correct_pct": 0.0,
+    "attempted_answer_accuracy_pct": 0.0,
+    "counts": {
+      "retrieval_correct": 0,
+      "answer_letter_correct": 0,
+      "answer_text_correct": 0,
+      "fully_correct": 0
+    }
+  },
+  "per_document_breakdown": {
+    "Atraumatic-Shoulder-Instability.pdf": {
+      "total": 1,
+      "retrieval_correct": 0,
+      "answer_text_correct": 0,
+      "fully_correct": 0
+    }
+  },
+  "per_question_results": [
+    {
+      "question": "Which intervention for atraumatic shoulder instability is highlighted as requiring further high-quality trials due to limited long-term outcome data?",
+      "options": {
+        "a": "Capsular shift",
+        "b": "Physiotherapy rehabilitation programmes",
+        "c": "Bankart repair",
+        "d": "Bone block procedures",
+        "e": "Capsulorhaphy"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "physiotherapy rehabilitation programmes",
+        "chunk_id": "Unknown",
+        "document": "Atraumatic-Shoulder-Instability.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Capsulorhaphy"
+      },
+      "all_retrieved_chunk_ids": [
+        668,
+        933,
+        892,
+        78,
+        871,
+        44,
+        903,
+        13
+      ],
+      "gold_chunk_ids": [
+        "Unknown"
+      ],
+      "retrieval_correct": false,
+      "answer_letter_correct": false,
+      "answer_text_correct": false,
+      "fully_correct": false
+    }
+  ]
+}

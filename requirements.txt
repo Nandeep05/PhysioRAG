@@ -1,0 +1,98 @@
+# ============================================================
+# PhysioRAG Pipeline — Requirements
+# Pinned to exact versions from working Windows environment
+# Python 3.12
+# ============================================================
+
+# ----------------------------
+# PDF Parsing
+# ----------------------------
+docling==2.73.0
+docling-core==2.64.0
+docling-ibm-models==3.11.0
+docling-parse==4.7.3
+
+# ----------------------------
+# LangChain Stack
+# ----------------------------
+langchain==1.2.10
+langchain-classic==1.0.1
+langchain-community==0.4.1
+langchain-core==1.2.15
+langchain-ollama==1.0.1
+langchain-text-splitters==1.1.1
+
+# BM25 retriever backend
+rank-bm25==0.2.2
+
+# ----------------------------
+# Embeddings & Vector Store
+# ----------------------------
+sentence-transformers==5.2.2
+sentencepiece==0.2.1
+faiss-cpu==1.13.2          # Replace with faiss-gpu if HPC has CUDA
+
+# ----------------------------
+# LLM Interface
+# ----------------------------
+ollama==0.6.1
+openai>=1.30.0              # Required by VLLMProvider (OpenAI-compatible vLLM API)
+transformers>=4.49.0
+accelerate>=1.5.2
+
+# ----------------------------
+# Data & Visualisation
+# ----------------------------
+pandas==2.2.3
+matplotlib>=3.8.0
+
+# ----------------------------
+# PyTorch — CUDA 12.1 build
+# ----------------------------
+# Your local environment uses CUDA 12.1 (cu121).
+# On HPC, check your CUDA version first:
+#   nvcc --version   OR   module load cuda
+# Then install the matching build:
+#
+# CUDA 12.1 (same as local):
+#   pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 \
+#       --index-url https://download.pytorch.org/whl/cu121
+#
+# CUDA 11.8 (common on older HPC nodes):
+#   pip install torch==2.5.1+cu118 torchvision==0.20.1+cu118 torchaudio==2.5.1+cu118 \
+#       --index-url https://download.pytorch.org/whl/cu118
+#
+# CPU only (if no GPU available):
+#   pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
+#
+# NOTE: torch is intentionally excluded from this file because
+# the +cu121 local wheel URL will not resolve correctly on HPC.
+# Install torch separately using the commands above BEFORE
+# running pip install -r requirements.txt
+
+# ============================================================
+# HPC SETUP INSTRUCTIONS
+# ============================================================
+#
+# 1. Create and activate a virtual environment:
+#       python -m venv physiorag_env
+#       source physiorag_env/bin/activate
+#
+# 2. Install PyTorch with the correct CUDA version (see above)
+#
+# 3. Install remaining dependencies:
+#       pip install -r requirements.txt
+#
+# 4. Install Ollama (NOT a pip package — needs separate install):
+#       curl -fsSL https://ollama.com/install.sh | sh
+#    If no root access, check: module avail ollama
+#    Then pull the model:
+#       ollama pull qwen2.5:7b
+#
+# 5. If faiss-cpu is too slow on GPU nodes, replace with:
+#       pip install faiss-gpu==1.13.2
+#
+# 6. langchain-classic is a thin compatibility shim —
+#    if it fails to install on Linux, try:
+#       pip install langchain-classic==1.0.1 --no-deps
+# ============================================================
