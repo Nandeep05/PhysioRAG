@@ -1,0 +1,1197 @@
+  "summary": {
+    "total_questions": 31,
+    "failed_to_answer": 0,
+    "retrieval_accuracy_pct": 96.77,
+    "answer_letter_accuracy_pct": 90.32,
+    "answer_text_accuracy_pct": 90.32,
+    "fully_correct_pct": 87.1,
+    "attempted_answer_accuracy_pct": 90.32,
+    "counts": {
+      "retrieval_correct": 30,
+      "answer_letter_correct": 28,
+      "answer_text_correct": 28,
+      "fully_correct": 27
+    }
+  },
+  "per_document_breakdown": {
+    "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf": {
+      "total": 11,
+      "retrieval_correct": 11,
+      "answer_text_correct": 10,
+      "fully_correct": 10
+    },
+    "Copy of Skulder og skulderbue.pdf": {
+      "total": 8,
+      "retrieval_correct": 7,
+      "answer_text_correct": 7,
+      "fully_correct": 6
+    },
+    "Adhesive_capsulitis_JOSPT.pdf": {
+      "total": 4,
+      "retrieval_correct": 4,
+      "answer_text_correct": 4,
+      "fully_correct": 4
+    },
+    "Shoulderdoc - Shoulder Rehab Book.pdf": {
+      "total": 5,
+      "retrieval_correct": 5,
+      "answer_text_correct": 5,
+      "fully_correct": 5
+    },
+    "Rotator cuff tendinopathy CPG.pdf": {
+      "total": 3,
+      "retrieval_correct": 3,
+      "answer_text_correct": 2,
+      "fully_correct": 2
+    }
+  },
+  "per_question_results": [
+    {
+      "question": "Which initial exercise focus is recommended to counteract identified impairments in muscle activation patterns?",
+      "options": {
+        "a": "Activating correct muscles with appropriate timing and sequencing",
+        "b": "Improving joint mobility",
+        "c": "Strengthening major muscle groups",
+        "d": "Enhancing proprioception",
+        "e": "Increasing range of motion"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "activating correct muscles with appropriate timing and sequencing",
+        "chunk_id": 967,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Activating correct muscles with appropriate timing and sequencing"
+      },
+      "all_retrieved_chunk_ids": [
+        967,
+        517,
+        966,
+        563,
+        672,
+        43,
+        499,
+        624
+      ],
+      "gold_chunk_ids": [
+        967
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which patient position is specifically described for performing scapular retraction against resistance?",
+      "options": {
+        "a": "Sidelying with scapula stabilized",
+        "b": "Prone with shoulder neutral",
+        "c": "Supine with arm abducted",
+        "d": "Sitting or standing with shoulder flexed to 90° and elbows extended",
+        "e": "Sitting or standing with the shoulder flexed to 90° and elbows extended"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "Sitting or standing with the shoulder flexed to 90° and elbows extended",
+        "chunk_id": 994,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Sitting or standing with the shoulder flexed to 90° and elbows extended"
+      },
+      "all_retrieved_chunk_ids": [
+        993,
+        994,
+        995,
+        998,
+        973,
+        997,
+        996,
+        974
+      ],
+      "gold_chunk_ids": [
+        994
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which structure is treated with deep friction in the management of a tenoperiosteal lesion?",
+      "options": {
+        "a": "Infraspinatus tendon",
+        "b": "Supraspinatus tendon",
+        "c": "Subscapularis tendon",
+        "d": "Biceps tendon",
+        "e": "Teres minor tendon"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "supraspinatus tendon",
+        "chunk_id": 297,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Infraspinatus tendon"
+      },
+      "all_retrieved_chunk_ids": [
+        317,
+        290,
+        297,
+        338,
+        296,
+        319,
+        399,
+        294
+      ],
+      "gold_chunk_ids": [
+        297
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": false,
+      "answer_text_correct": false,
+      "fully_correct": false
+    },
+    {
+      "question": "Which clinical feature is associated with total rupture of the supraspinatus tendon?",
+      "options": {
+        "a": "Painful weakness during passive abduction",
+        "b": "Painless weakness on resisted abduction",
+        "c": "Inability to adduct the arm actively",
+        "d": "Pain on resisted internal rotation",
+        "e": "Weakness in shoulder external rotation"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "painless weakness on resisted abduction",
+        "chunk_id": 299,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Painless weakness on resisted abduction"
+      },
+      "all_retrieved_chunk_ids": [
+        299,
+        223,
+        325,
+        297,
+        201,
+        324,
+        337,
+        302
+      ],
+      "gold_chunk_ids": [
+        299
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is specifically recommended to reposition the humeral head in the glenoid fossa for patients with faulty shoulder mechanics?",
+      "options": {
+        "a": "Gentle joint oscillation techniques",
+        "b": "Sustained caudal glide joint techniques",
+        "c": "Scapular stabilization exercises",
+        "d": "Isometric shoulder strengthening",
+        "e": "Neuromuscular re-education"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "Sustained caudal glide joint techniques",
+        "chunk_id": 721,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Sustained caudal glide joint techniques"
+      },
+      "all_retrieved_chunk_ids": [
+        721,
+        722,
+        723,
+        181,
+        269,
+        884,
+        807,
+        740
+      ],
+      "gold_chunk_ids": [
+        721
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "What is the ICD-10 code associated with adhesive capsulitis?",
+      "options": {
+        "a": "M75.1",
+        "b": "M75.2",
+        "c": "M75.0",
+        "d": "M75.3",
+        "e": "M75.4"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "M75.0",
+        "chunk_id": 16,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "M75.0"
+      },
+      "all_retrieved_chunk_ids": [
+        16,
+        17,
+        47,
+        41,
+        25,
+        27,
+        24,
+        37
+      ],
+      "gold_chunk_ids": [
+        16
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which feature is characteristic of stage 2 adhesive capsulitis according to Griggs et al?",
+      "options": {
+        "a": "Loss of active and passive shoulder ROM (more than a 50% loss of external rotation)",
+        "b": "Severe night pain radiating to the neck",
+        "c": "Pain at rest with no active movement",
+        "d": "Painful arc between 60°-120° of abduction",
+        "e": "Positive Neer's sign with subacromial impingement"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "loss of active and passive shoulder ROM (more than a 50% loss of external rotation)",
+        "chunk_id": 33,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Loss of active and passive shoulder ROM (more than a 50% loss of external rotation)"
+      },
+      "all_retrieved_chunk_ids": [
+        33,
+        93,
+        30,
+        39,
+        29,
+        76,
+        717,
+        22
+      ],
+      "gold_chunk_ids": [
+        33
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which muscle recruitment is increased with an unstable base during Swiss Ball Prone Angel Circles?",
+      "options": {
+        "a": "increases trapezius muscle recruitment",
+        "b": "Serratus anterior activation",
+        "c": "Deltoid muscle recruitment",
+        "d": "Trapezius muscle recruitment",
+        "e": "Rotator cuff activation"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "increases trapezius muscle recruitment",
+        "chunk_id": 642,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "increases trapezius muscle recruitment"
+      },
+      "all_retrieved_chunk_ids": [
+        642,
+        627,
+        616,
+        628,
+        612,
+        610,
+        600,
+        611
+      ],
+      "gold_chunk_ids": [
+        642
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "What is the primary purpose of emphasizing the lower quadrant component during lateral wall slide with step forward?",
+      "options": {
+        "a": "Reduce subacromial pressure",
+        "b": "increases scapula muscle activation levels",
+        "c": "Enhance glenohumeral stability",
+        "d": "Increase scapula muscle activation levels",
+        "e": "Improve thoracic mobility"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "increases scapula muscle activation levels",
+        "chunk_id": 579,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "increases scapula muscle activation levels"
+      },
+      "all_retrieved_chunk_ids": [
+        579,
+        604,
+        582,
+        634,
+        636,
+        957,
+        633,
+        955
+      ],
+      "gold_chunk_ids": [
+        579
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which type of range of motion is recommended for 6 to 8 weeks following a repair of a massive cuff tear or traditional open repair with deltoid detachment?",
+      "options": {
+        "a": "Active-assisted ROM",
+        "b": "Resisted ROM",
+        "c": "Passive, nonassisted ROM for 6 to 8 weeks",
+        "d": "Active ROM",
+        "e": "Isometric contractions"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "passive, nonassisted ROM for 6 to 8 weeks",
+        "chunk_id": 858,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Passive, nonassisted ROM for 6 to 8 weeks"
+      },
+      "all_retrieved_chunk_ids": [
+        858,
+        851,
+        854,
+        860,
+        855,
+        842,
+        867,
+        819
+      ],
+      "gold_chunk_ids": [
+        858
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which anatomical structures form the gliding surfaces of the scapulothoracic gliding mechanism?",
+      "options": {
+        "a": "The anterior aspect of the scapula and the posterior aspect of the thorax",
+        "b": "Clavicle and sternum",
+        "c": "Subscapularis muscle and serratus anterior muscle",
+        "d": "Trapezius muscle and rhomboids",
+        "e": "Acromion process and coracoid process"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "the anterior aspect of the scapula and the posterior aspect of the thorax",
+        "chunk_id": 358,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "The anterior aspect of the scapula and the posterior aspect of the thorax"
+      },
+      "all_retrieved_chunk_ids": [
+        358,
+        115,
+        113,
+        105,
+        359,
+        367,
+        360,
+        366
+      ],
+      "gold_chunk_ids": [
+        358
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is recommended to be combined with stretching in the management of frozen shoulder?",
+      "options": {
+        "a": "Mobilizing exercises",
+        "b": "Continuous pressure",
+        "c": "Isometric exercises",
+        "d": "Axial traction",
+        "e": "Hold-relax techniques"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "hold-relax techniques",
+        "chunk_id": 178,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Hold-relax techniques"
+      },
+      "all_retrieved_chunk_ids": [
+        176,
+        72,
+        946,
+        767,
+        102,
+        913,
+        862,
+        954
+      ],
+      "gold_chunk_ids": [
+        178
+      ],
+      "retrieval_correct": false,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": false
+    },
+    {
+      "question": "Which clinical test for rotator cuff tendinopathy has the highest positive likelihood ratio (LR+) according to Roy et al and Gismervik et al?",
+      "options": {
+        "a": "Painful arc test",
+        "b": "Neer test",
+        "c": "Hawkins-Kennedy test",
+        "d": "Empty can test",
+        "e": "Drop arm test"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "painful arc test",
+        "chunk_id": 459,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Painful arc test"
+      },
+      "all_retrieved_chunk_ids": [
+        459,
+        461,
+        420,
+        460,
+        421,
+        418,
+        285,
+        422
+      ],
+      "gold_chunk_ids": [
+        459
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which muscles are emphasized for stability during external and internal rotation in sitting unsupported?",
+      "options": {
+        "a": "Supraspinatus and infraspinatus",
+        "b": "Teres minor and subscapularis",
+        "c": "Latissimus dorsi and deltoid",
+        "d": "Serratus anterior and trapezius",
+        "e": "Pectoralis major and rhomboids"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "latissimus dorsi and deltoid",
+        "chunk_id": 590,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Latissimus dorsi and deltoid"
+      },
+      "all_retrieved_chunk_ids": [
+        590,
+        585,
+        588,
+        884,
+        886,
+        584,
+        689,
+        695
+      ],
+      "gold_chunk_ids": [
+        590
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which muscle imbalance is typically associated with impingement syndrome due to increased thoracic kyphosis and faulty scapular alignment?",
+      "options": {
+        "a": "Tight pectoralis minor and weak serratus anterior",
+        "b": "the external rotators of the shoulder and upward rotators of the scapula may test weak and have poor muscular endurance",
+        "c": "Tight levator scapulae and weak trapezius",
+        "d": "Tight internal rotators and weak external rotators/upward rotators",
+        "e": "Tight subscapularis and weak supraspinatus"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "the external rotators of the shoulder and upward rotators of the scapula may test weak and have poor muscular endurance",
+        "chunk_id": 795,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "the external rotators of the shoulder and upward rotators of the scapula may test weak and have poor muscular endurance"
+      },
+      "all_retrieved_chunk_ids": [
+        795,
+        689,
+        796,
+        800,
+        799,
+        690,
+        667,
+        794
+      ],
+      "gold_chunk_ids": [
+        795
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is used to modify joint tracking and improve active elevation in shoulder mobility?",
+      "options": {
+        "a": "Manual joint mobilization",
+        "b": "Resistance band strengthening",
+        "c": "Mobilization belt provides the posterolateral glide",
+        "d": "Isometric shoulder stabilization",
+        "e": "Dynamic stretching protocol"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "mobilization belt provides the posterolateral glide",
+        "chunk_id": 808,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Mobilization belt provides the posterolateral glide"
+      },
+      "all_retrieved_chunk_ids": [
+        807,
+        808,
+        726,
+        722,
+        767,
+        714,
+        204,
+        211
+      ],
+      "gold_chunk_ids": [
+        808
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "What parameters are assessed during active movements of the shoulder girdle in the preliminary examination?",
+      "options": {
+        "a": "Pain, range of motion, and abnormal sensations",
+        "b": "Muscle atrophy",
+        "c": "Joint effusion",
+        "d": "pain, range of motion and abnormal sensations",
+        "e": "Nerve conduction"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "pain, range of motion and abnormal sensations",
+        "chunk_id": 365,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "pain, range of motion and abnormal sensations"
+      },
+      "all_retrieved_chunk_ids": [
+        365,
+        144,
+        364,
+        147,
+        371,
+        362,
+        204,
+        368
+      ],
+      "gold_chunk_ids": [
+        365
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is recommended for shoulder MWM in patients with impingement signs and capsular restrictions?",
+      "options": {
+        "a": "MWM active elevation technique",
+        "b": "Subacromial mobilization",
+        "c": "Scapular stabilization exercises",
+        "d": "Rotator cuff strengthening",
+        "e": "Manual therapy"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "MWM active elevation technique",
+        "chunk_id": 726,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "MWM active elevation technique"
+      },
+      "all_retrieved_chunk_ids": [
+        726,
+        723,
+        807,
+        724,
+        939,
+        176,
+        8,
+        101
+      ],
+      "gold_chunk_ids": [
+        726
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which primary ICF activity codes are associated with adhesive capsulitis?",
+      "options": {
+        "a": "d4551 climbing",
+        "b": "d2303 completing the daily routine",
+        "c": "d4300 lifting",
+        "d": "d4150 maintaining a lying position",
+        "e": "d4150 maintaining a lying position , d5400 putting on clothes , d5401 taking off clothes , and d4452 reaching"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "d4150 maintaining a lying position , d5400 putting on clothes , d5401 taking off clothes , and d4452 reaching",
+        "chunk_id": 17,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "d4150 maintaining a lying position , d5400 putting on clothes , d5401 taking off clothes , and d4452 reaching"
+      },
+      "all_retrieved_chunk_ids": [
+        17,
+        16,
+        36,
+        37,
+        99,
+        41,
+        24,
+        38
+      ],
+      "gold_chunk_ids": [
+        17
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is emphasized in the management of post-traumatic shoulder arthritis to prevent secondary limitation of movement?",
+      "options": {
+        "a": "Joint mobilization",
+        "b": "Capsular stretching technique",
+        "c": "Isometric exercises",
+        "d": "Hydrotherapy",
+        "e": "Therapeutic ultrasound"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "capsular stretching technique",
+        "chunk_id": 176,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Capsular stretching technique"
+      },
+      "all_retrieved_chunk_ids": [
+        176,
+        937,
+        237,
+        182,
+        714,
+        767,
+        327,
+        939
+      ],
+      "gold_chunk_ids": [
+        176
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which technique is specifically recommended to reduce load on the upper quadrant and prevent compensatory muscle strategies in early post-operative shoulder rehabilitation?",
+      "options": {
+        "a": "Supporting the upper limb with the contra-lateral arm reduces load on the upper quadrant reducing the risk of compensatory muscle stategies in the early post-operative shoulder",
+        "b": "Bending the elbow to 90° and rotating the palm up and down",
+        "c": "Extending the wrist backwards and flexing forwards",
+        "d": "Supporting the upper limb with the contra-lateral arm",
+        "e": "Maintaining equal weight through forearms and feet"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "Supporting the upper limb with the contra-lateral arm reduces load on the upper quadrant reducing the risk of compensatory muscle stategies in the early post-operative shoulder",
+        "chunk_id": 569,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Supporting the upper limb with the contra-lateral arm reduces load on the upper quadrant reducing the risk of compensatory muscle stategies in the early post-operative shoulder"
+      },
+      "all_retrieved_chunk_ids": [
+        570,
+        569,
+        579,
+        916,
+        864,
+        937,
+        767,
+        827
+      ],
+      "gold_chunk_ids": [
+        569
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which phenomenon is associated with total rupture of the supraspinatus tendon and represents a significant plain radiographic sign of massive cuff deficiency?",
+      "options": {
+        "a": "Subacromial impingement",
+        "b": "Glenohumeral instability",
+        "c": "Acromioclavicular arthritis",
+        "d": "The spacer effect",
+        "e": "Rotator cuff tendinopathy"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "the spacer effect",
+        "chunk_id": 301,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "The spacer effect"
+      },
+      "all_retrieved_chunk_ids": [
+        299,
+        325,
+        223,
+        301,
+        297,
+        302,
+        201,
+        324
+      ],
+      "gold_chunk_ids": [
+        301
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which progression is emphasized in exercises for scapular and GH musculature control in shoulder girdle pathomechanics?",
+      "options": {
+        "a": "Isometric contractions",
+        "b": "Resistance band training",
+        "c": "Combined, functional patterns",
+        "d": "Proprioceptive neuromuscular facilitation",
+        "e": "Static stretching"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "combined, functional patterns",
+        "chunk_id": 966,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Combined, functional patterns"
+      },
+      "all_retrieved_chunk_ids": [
+        966,
+        971,
+        768,
+        1004,
+        923,
+        858,
+        990,
+        825
+      ],
+      "gold_chunk_ids": [
+        966
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which primary indication for opioid prescriptions in patients with Rotator cuff (RC) disorders is highlighted in the context?",
+      "options": {
+        "a": "postoperative pain",
+        "b": "chronic shoulder instability",
+        "c": "acute musculoskeletal pain",
+        "d": "subacromial bursitis",
+        "e": "cervical radiculopathy"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "postoperative pain",
+        "chunk_id": 488,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "cervical radiculopathy"
+      },
+      "all_retrieved_chunk_ids": [
+        488,
+        412,
+        411,
+        478,
+        492,
+        470,
+        836,
+        491
+      ],
+      "gold_chunk_ids": [
+        488
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": false,
+      "answer_text_correct": false,
+      "fully_correct": false
+    },
+    {
+      "question": "According to the 2021 CPG based on a modified Delphi study, what is the recommendation regarding the use of clinical tests for diagnosing rotator cuff tendinopathy?",
+      "options": {
+        "a": "Clinicians should prioritize imaging over clinical tests",
+        "b": "Clinical tests should be used as the sole diagnostic method",
+        "c": "Clinical tests must be combined with patient history only",
+        "d": "Clinicians should not rely solely on clinical test results",
+        "e": "Clinical tests are unnecessary for initial diagnosis"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "clinicians should not rely solely on clinical test results",
+        "chunk_id": 458,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "Clinicians should not rely solely on clinical test results"
+      },
+      "all_retrieved_chunk_ids": [
+        458,
+        450,
+        490,
+        445,
+        477,
+        483,
+        470,
+        433
+      ],
+      "gold_chunk_ids": [
+        458
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which scapular muscle activation is emphasized by contra-lateral leg extension during 4 point kneeling to superman exercise?",
+      "options": {
+        "a": "lower trapezius activity",
+        "b": "Upper trapezius",
+        "c": "Rhomboids",
+        "d": "Lower trapezius",
+        "e": "Levator scapulae"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "lower trapezius activity",
+        "chunk_id": 606,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "lower trapezius activity"
+      },
+      "all_retrieved_chunk_ids": [
+        606,
+        607,
+        1000,
+        603,
+        974,
+        612,
+        643,
+        992
+      ],
+      "gold_chunk_ids": [
+        606
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which condition is most commonly associated with mechanical (aseptic) loosening of the polyethylene glenoid implant after total shoulder arthroplasty?",
+      "options": {
+        "a": "Rotator cuff-deficient shoulder",
+        "b": "Subacromial bursitis",
+        "c": "Adhesive capsulitis",
+        "d": "Humeral prosthesis loosening",
+        "e": "Glenohumeral instability"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "rotator cuff-deficient shoulder",
+        "chunk_id": 752,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Rotator cuff-deficient shoulder"
+      },
+      "all_retrieved_chunk_ids": [
+        752,
+        738,
+        744,
+        743,
+        746,
+        748,
+        740,
+        878
+      ],
+      "gold_chunk_ids": [
+        752
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which position is specifically described as the 'balance point position' of the shoulder during the Maximum Protection Phase for rotator cuff repairs?",
+      "options": {
+        "a": "Neutral suspension",
+        "b": "90° abduction",
+        "c": "Neutral position",
+        "d": "Balance point position",
+        "e": "90° flexion"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "balance point position",
+        "chunk_id": 857,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "90° flexion"
+      },
+      "all_retrieved_chunk_ids": [
+        857,
+        759,
+        855,
+        859,
+        1014,
+        924,
+        944,
+        860
+      ],
+      "gold_chunk_ids": [
+        857
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": false,
+      "answer_text_correct": false,
+      "fully_correct": false
+    },
+    {
+      "question": "What is the primary purpose of early motion during acute and early subacute stages of shoulder tissue healing?",
+      "options": {
+        "a": "Inhibit pain, minimize muscle guarding, and help prevent deleterious effects of complete immobilization",
+        "b": "Increase range of motion and strengthen rotator cuff muscles",
+        "c": "Reduce inflammation and promote tissue regeneration",
+        "d": "Enhance blood flow and accelerate scar tissue formation",
+        "e": "Prevent joint degeneration and improve proprioception"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "inhibit pain, minimize muscle guarding, and help prevent deleterious effects of complete immobilization",
+        "chunk_id": 937,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Inhibit pain, minimize muscle guarding, and help prevent deleterious effects of complete immobilization"
+      },
+      "all_retrieved_chunk_ids": [
+        937,
+        704,
+        757,
+        823,
+        564,
+        29,
+        766,
+        705
+      ],
+      "gold_chunk_ids": [
+        937
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which muscle is implicated if resisted adduction is painless during resisted medial rotation testing?",
+      "options": {
+        "a": "Pectoralis major",
+        "b": "Subscapularis",
+        "c": "Latissimus dorsi",
+        "d": "Teres major",
+        "e": "Supraspinatus"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "subscapularis",
+        "chunk_id": 331,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Subscapularis"
+      },
+      "all_retrieved_chunk_ids": [
+        331,
+        309,
+        307,
+        316,
+        402,
+        228,
+        311,
+        247
+      ],
+      "gold_chunk_ids": [
+        331
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    },
+    {
+      "question": "Which ICF category is associated with measurement of active and passive shoulder range of motion in adhesive capsulitis?",
+      "options": {
+        "a": "Mobility of multiple joints",
+        "b": "Measurement of impairment of body function: mobility of a single joint",
+        "c": "Muscle strength assessment",
+        "d": "Pain intensity measurement",
+        "e": "Range of motion in the elbow"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "measurement of impairment of body function: mobility of a single joint",
+        "chunk_id": 56,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Measurement of impairment of body function: mobility of a single joint"
+      },
+      "all_retrieved_chunk_ids": [
+        56,
+        61,
+        101,
+        3,
+        39,
+        0,
+        6,
+        16
+      ],
+      "gold_chunk_ids": [
+        56
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true
+    }
+  ]
+}

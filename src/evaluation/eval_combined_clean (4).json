@@ -1,0 +1,1657 @@
+{
+  "summary": {
+    "totalquestions": 42,
+    "target_per_document": "variable (7-9)",
+    "documents": 6,
+    "sources": [
+      "eval_Qwen3-14B_20260405_114934.json",
+      "eval_Qwen3-14B_20260409_135417.json",
+      "eval_Qwen3-8B_20260408_174816.json",
+      "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json",
+      "eval_Qwen3-8B_20260405_122116.json",
+      "eval_Qwen3-14B_high_accuracy.json",
+      "eval_Qwen3-14B_20260408_190938.json"
+    ],
+    "note": "Final curated set: 42 questions. Ready for peer review."
+  },
+  "perquestionresults": [
+    {
+      "question": "Which stretching parameter is specifically recommended for patients with adhesive capsulitis based on tissue irritability levels?",
+      "options": {
+        "a": "Maximum range of motion",
+        "b": "Isometric contractions",
+        "c": "Progressive resistance training",
+        "d": "High-intensity stretching",
+        "e": "Stretching intensity that matches the given level of tissue irritability"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "stretching intensity that matches the given level of tissue irritability",
+        "chunk_id": 88,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Stretching intensity that matches the given level of tissue irritability"
+      },
+      "all_retrieved_chunk_ids": [
+        88,
+        10,
+        96,
+        103,
+        72,
+        63,
+        6,
+        41
+      ],
+      "gold_chunk_ids": [
+        88
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which anatomical structures should clinicians assess for impairments in patients presenting with adhesive capsulitis and shoulder pain?",
+      "options": {
+        "a": "Rotator cuff tendons",
+        "b": "Subacromial bursa",
+        "c": "Capsuloligamentous complex and musculotendinous structures",
+        "d": "Glenohumeral joint capsule",
+        "e": "Acromioclavicular joint"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "capsuloligamentous complex and musculotendinous structures",
+        "chunk_id": 96,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Capsuloligamentous complex and musculotendinous structures"
+      },
+      "all_retrieved_chunk_ids": [
+        0,
+        4,
+        96,
+        101,
+        7,
+        2,
+        61,
+        47
+      ],
+      "gold_chunk_ids": [
+        96
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "What condition is more prevalent in women with idiopathic adhesive capsulitis compared to the age-matched population?",
+      "options": {
+        "a": "Thyroid disease",
+        "b": "Diabetes mellitus",
+        "c": "Hypothyroidism",
+        "d": "No significant difference",
+        "e": "higher prevalence of hypothyroidism"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "higher prevalence of hypothyroidism",
+        "chunk_id": 18,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "higher prevalence of hypothyroidism"
+      },
+      "all_retrieved_chunk_ids": [
+        25,
+        18,
+        27,
+        1,
+        28,
+        184,
+        96,
+        32
+      ],
+      "gold_chunk_ids": [
+        18
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    },
+    {
+      "question": "What is described as a benefit of heating or electrical modalities in the treatment of patients with adhesive capsulitis?",
+      "options": {
+        "a": "Increased pain",
+        "b": "Decreased ROM",
+        "c": "No benefit",
+        "d": "Negative impact on the natural course",
+        "e": "Positive benefit on pain"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "Positive benefit on pain",
+        "chunk_id": 63,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Positive benefit on pain"
+      },
+      "all_retrieved_chunk_ids": [
+        63,
+        69,
+        71,
+        66,
+        68,
+        72,
+        102,
+        67
+      ],
+      "gold_chunk_ids": [
+        63
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    },
+    {
+      "question": "Which treatment combination demonstrated significantly greater improvement in range of motion for patients in the stiffness stage of adhesive capsulitis according to Leung and Cheing's study?",
+      "options": {
+        "a": "Hot pack and self-stretching",
+        "b": "Shortwave diathermy and stretching",
+        "c": "Stretching alone",
+        "d": "Superficial heating and stretching",
+        "e": "Electrical stimulation and stretching"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "shortwave diathermy and stretching",
+        "chunk_id": 69,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Shortwave diathermy and stretching"
+      },
+      "all_retrieved_chunk_ids": [
+        69,
+        77,
+        71,
+        718,
+        74,
+        717,
+        72,
+        91
+      ],
+      "gold_chunk_ids": [
+        69
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which categorization of secondary adhesive capsulitis includes patients with diabetes mellitus and thyroid disease?",
+      "options": {
+        "a": "Extrinsic secondary adhesive capsulitis",
+        "b": "Intrinsic secondary adhesive capsulitis",
+        "c": "Systemic secondary adhesive capsulitis",
+        "d": "Postoperative secondary adhesive capsulitis",
+        "e": "Neurogenic secondary adhesive capsulitis"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "systemic secondary adhesive capsulitis",
+        "chunk_id": 38,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Systemic secondary adhesive capsulitis"
+      },
+      "all_retrieved_chunk_ids": [
+        38,
+        37,
+        18,
+        1,
+        27,
+        15,
+        25,
+        96
+      ],
+      "gold_chunk_ids": [
+        38
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which finding in adhesive capsulitis is associated with heightened pain response?",
+      "options": {
+        "a": "Multiregional synovitis",
+        "b": "New nerve growth",
+        "c": "Focal vascularity",
+        "d": "Synovial angiogenesis",
+        "e": "Capsular thickening"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "new nerve growth",
+        "chunk_id": 22,
+        "document": "Adhesive_capsulitis_JOSPT.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "New nerve growth"
+      },
+      "all_retrieved_chunk_ids": [
+        22,
+        24,
+        40,
+        36,
+        4,
+        29,
+        16,
+        25
+      ],
+      "gold_chunk_ids": [
+        22
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Adhesive_capsulitis_JOSPT.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "What is the most significant sign in a patient with a rupture of the biceps tendon?",
+      "options": {
+        "a": "Painless weakness on resisted elbow flexion",
+        "b": "Appreciable loss of muscle power",
+        "c": "Prominence that persists from the distal displacement of the muscle belly",
+        "d": "Loud crack at the moment of rupture",
+        "e": "Transient pain in the upper arm"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "prominence that persists from the distal displacement of the muscle belly",
+        "chunk_id": 343,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Prominence that persists from the distal displacement of the muscle belly"
+      },
+      "all_retrieved_chunk_ids": [
+        343,
+        340,
+        337,
+        324,
+        302,
+        342,
+        297,
+        791
+      ],
+      "gold_chunk_ids": [
+        343
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    },
+    {
+      "question": "Which MRI finding is characteristic of costocoracoid fascia disorder?",
+      "options": {
+        "a": "Pectoralis major thickening",
+        "b": "Serratus anterior irregularity",
+        "c": "Thickening and irregularity in the upperlateral part of the pectoralis minor",
+        "d": "Subscapularis fibrosis",
+        "e": "Supraspinatus tendon calcification"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "Thickening and irregularity in the upperlateral part of the pectoralis minor",
+        "chunk_id": 394,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "Thickening and irregularity in the upperlateral part of the pectoralis minor"
+      },
+      "all_retrieved_chunk_ids": [
+        394,
+        215,
+        393,
+        395,
+        118,
+        408,
+        388,
+        198
+      ],
+      "gold_chunk_ids": [
+        394
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "What is the normal range of humeral head translation during load-and-shift manœuvres for anterior and posterior drawer tests?",
+      "options": {
+        "a": "Translation of up to 25% of the humeral head diameter",
+        "b": "Not applicable in this clinical context",
+        "c": "Insufficient evidence to determine",
+        "d": "None of the listed options",
+        "e": "All of the above equally"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "translation of up to 25% of the humeral head diameter",
+        "chunk_id": 269,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Translation of up to 25% of the humeral head diameter"
+      },
+      "all_retrieved_chunk_ids": [
+        269,
+        270,
+        680,
+        273,
+        873,
+        271,
+        801,
+        872
+      ],
+      "gold_chunk_ids": [
+        269
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which treatment option is mentioned for painful subscapularis tendon rupture?",
+      "options": {
+        "a": "Surgical repair of the subscapularis",
+        "b": "Physical therapy with resistance bands",
+        "c": "Nerve block for pain management",
+        "d": "NSAID administration for inflammation",
+        "e": "Infiltration with corticosteroid into the remnants at the tenoperiosteal insertion"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "infiltration with corticosteroid into the remnants at the tenoperiosteal insertion",
+        "chunk_id": 338,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Infiltration with corticosteroid into the remnants at the tenoperiosteal insertion"
+      },
+      "all_retrieved_chunk_ids": [
+        338,
+        297,
+        247,
+        324,
+        337,
+        225,
+        816,
+        332
+      ],
+      "gold_chunk_ids": [
+        338
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "What occurs during deltoid contraction in a total supraspinatus tendon rupture?",
+      "options": {
+        "a": "Subacromial bursitis",
+        "b": "Cranial subluxation of the humeral head during deltoid contraction",
+        "c": "Glenohumeral instability",
+        "d": "Supraspinatus tendon reattachment",
+        "e": "Rotator cuff impingement"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "cranial subluxation of the humeral head during deltoid contraction",
+        "chunk_id": 305,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Cranial subluxation of the humeral head during deltoid contraction"
+      },
+      "all_retrieved_chunk_ids": [
+        299,
+        305,
+        300,
+        325,
+        297,
+        337,
+        306,
+        298
+      ],
+      "gold_chunk_ids": [
+        305
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "Which anatomical feature is identified during palpation of the shoulder?",
+      "options": {
+        "a": "Bicipital groove location",
+        "b": "Greater tuberosity orientation",
+        "c": "Coracoid process position",
+        "d": "Subscapularis insertion site",
+        "e": "Lesser tuberosity points anteriorly, the greater tuberosity laterally"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "Lesser tuberosity points anteriorly, the greater tuberosity laterally",
+        "chunk_id": 333,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Lesser tuberosity points anteriorly, the greater tuberosity laterally"
+      },
+      "all_retrieved_chunk_ids": [
+        333,
+        406,
+        375,
+        253,
+        340,
+        234,
+        659,
+        293
+      ],
+      "gold_chunk_ids": [
+        333
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "What is the classification of atraumatic osteolysis of the distal clavicle?",
+      "options": {
+        "a": "Adhesive capsulitis",
+        "b": "Rotator cuff tendinopathy",
+        "c": "Acromioclavicular osteoarthritis",
+        "d": "Subacromial impingement syndrome",
+        "e": "Stress failure syndrome of the distal clavicle"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "stress failure syndrome of the distal clavicle",
+        "chunk_id": 242,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Stress failure syndrome of the distal clavicle"
+      },
+      "all_retrieved_chunk_ids": [
+        242,
+        235,
+        114,
+        110,
+        239,
+        109,
+        246,
+        871
+      ],
+      "gold_chunk_ids": [
+        242
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which condition is characterized by a proportional limitation of abduction, external rotation, and internal rotation in the shoulder joint?",
+      "options": {
+        "a": "Crepitating bursitis",
+        "b": "Rotator cuff tear",
+        "c": "Subacromial bursitis",
+        "d": "Adhesive capsulitis",
+        "e": "Lesion of the capsule of the joint"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "lesion of the capsule of the joint",
+        "chunk_id": 165,
+        "document": "Copy of Skulder og skulderbue.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Lesion of the capsule of the joint"
+      },
+      "all_retrieved_chunk_ids": [
+        165,
+        229,
+        39,
+        704,
+        225,
+        686,
+        887,
+        250
+      ],
+      "gold_chunk_ids": [
+        165
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Copy of Skulder og skulderbue.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which shoulder kinematic alterations are most consistently reported in patients with rotator cuff tendinopathy?",
+      "options": {
+        "a": "Exaggerated upward rotation and anterior tilt of the scapula",
+        "b": "Increased downward rotation and anterior tilt of the scapula",
+        "c": "Reduced posterior tilt with decreased shoulder girdle elevation",
+        "d": "reduced upward rotation and posterior tilt of the scapula, as well as an increased elevation of the shoulder girdle",
+        "e": "Decreased scapular mobility with fixed posterior tilt"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "reduced upward rotation and posterior tilt of the scapula, as well as an increased elevation of the shoulder girdle",
+        "chunk_id": 443,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "reduced upward rotation and posterior tilt of the scapula, as well as an increased elevation of the shoulder girdle"
+      },
+      "all_retrieved_chunk_ids": [
+        443,
+        23,
+        470,
+        420,
+        412,
+        794,
+        778,
+        868
+      ],
+      "gold_chunk_ids": [
+        443
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which patient population is the focus of the rotator cuff tendinopathy clinical practice guideline?",
+      "options": {
+        "a": "Athletes with acute shoulder dislocation",
+        "b": "Patients with cervical radiculopathy",
+        "c": "Individuals with frozen shoulder syndrome",
+        "d": "Adults with shoulder pain with suspected rotator cuff (RC) tendinopathy",
+        "e": "Children with overhead sports injuries"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "adults with shoulder pain with suspected rotator cuff (RC) tendinopathy",
+        "chunk_id": 412,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "Adults with shoulder pain with suspected rotator cuff (RC) tendinopathy"
+      },
+      "all_retrieved_chunk_ids": [
+        412,
+        413,
+        427,
+        418,
+        423,
+        422,
+        426,
+        903
+      ],
+      "gold_chunk_ids": [
+        412
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which intervention is associated with reduced shoulder discomfort in office workers according to a Cochrane review?",
+      "options": {
+        "a": "Manual therapy",
+        "b": "Ergonomic adjustments",
+        "c": "Exercise programs",
+        "d": "Supplementary breaks",
+        "e": "supplementary breaks significantly reduces shoulder or upper arm discomfort"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "supplementary breaks significantly reduces shoulder or upper arm discomfort",
+        "chunk_id": 548,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "supplementary breaks significantly reduces shoulder or upper arm discomfort"
+      },
+      "all_retrieved_chunk_ids": [
+        548,
+        547,
+        546,
+        549,
+        545,
+        13,
+        42,
+        44
+      ],
+      "gold_chunk_ids": [
+        548
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-8B_20260405_122116.json"
+    },
+    {
+      "question": "Which statement accurately reflects the evidence regarding the effectiveness of suprascapular nerve block in adults with RC tendinopathy?",
+      "options": {
+        "a": "Limited evidence in short-term pain reduction",
+        "b": "No evidence on long-term risks",
+        "c": "Recommended as first-line treatment",
+        "d": "Strong evidence for effectiveness",
+        "e": "Insufficient evidence to formulate a recommendation"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "Insufficient evidence to formulate a recommendation",
+        "chunk_id": 494,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Insufficient evidence to formulate a recommendation"
+      },
+      "all_retrieved_chunk_ids": [
+        494,
+        529,
+        549,
+        518,
+        526,
+        543,
+        502,
+        490
+      ],
+      "gold_chunk_ids": [
+        494
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "Which criteria indicate referral to a specialist for adults with rotator cuff tendinopathy?",
+      "options": {
+        "a": "Moderate pain with intermittent disability",
+        "b": "Severe and persistent pain and/or disability",
+        "c": "Mild pain with no disability",
+        "d": "Persistent pain without disability",
+        "e": "Not applicable in this clinical context"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "severe and persistent pain and/or disability",
+        "chunk_id": 422,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Severe and persistent pain and/or disability"
+      },
+      "all_retrieved_chunk_ids": [
+        422,
+        480,
+        421,
+        418,
+        412,
+        423,
+        477,
+        424
+      ],
+      "gold_chunk_ids": [
+        422
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "According to the 2021 CPG on rotator cuff tendinopathy, what is the most significant adverse effect associated with oral opioids in adults with chronic musculoskeletal pain?",
+      "options": {
+        "a": "Reduced pain compared to placebo",
+        "b": "Increased risk of adverse events",
+        "c": "No significant pain reduction vs NSAIDs",
+        "d": "Improved physical component score vs placebo",
+        "e": "Decreased dependency risk"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "increased risk of adverse events",
+        "chunk_id": 489,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Increased risk of adverse events"
+      },
+      "all_retrieved_chunk_ids": [
+        487,
+        490,
+        485,
+        489,
+        470,
+        486,
+        491,
+        517
+      ],
+      "gold_chunk_ids": [
+        489
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which treatment method is recommended as an initial treatment to reduce pain and disability in adults with rotator cuff tendinopathy?",
+      "options": {
+        "a": "Active rehabilitation exercise program",
+        "b": "Taping",
+        "c": "Spinal and/or upper limb manual therapy",
+        "d": "Soft tissue techniques and/or joint mobilizations or manipulations",
+        "e": "Patient-centered and individualized education"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "active rehabilitation exercise program",
+        "chunk_id": 423,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Active rehabilitation exercise program"
+      },
+      "all_retrieved_chunk_ids": [
+        423,
+        517,
+        424,
+        499,
+        425,
+        490,
+        524,
+        544
+      ],
+      "gold_chunk_ids": [
+        423
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    },
+    {
+      "question": "Which tools are recommended for measuring shoulder ROM in rotator cuff tendinopathy based on systematic reviews and CPG guidelines?",
+      "options": {
+        "a": "Ultrasound imaging",
+        "b": "Smartphone applications",
+        "c": "Digital inclinometer",
+        "d": "Goniometer and inclinometer",
+        "e": "goniometer and the inclinometer"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "goniometer and the inclinometer",
+        "chunk_id": 462,
+        "document": "Rotator cuff tendinopathy CPG.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "goniometer and the inclinometer"
+      },
+      "all_retrieved_chunk_ids": [
+        462,
+        464,
+        420,
+        468,
+        470,
+        412,
+        413,
+        483
+      ],
+      "gold_chunk_ids": [
+        462
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Rotator cuff tendinopathy CPG.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which description best characterizes the HAND BEHIND BACK stretch with stick as described by Walton & Russell 2015?",
+      "options": {
+        "a": "Stretches subacromial structures primarily",
+        "b": "Targets posterior capsule tightness specifically",
+        "c": "Improves internal rotation range exclusively",
+        "d": "Composite movement not targeting one capsular part",
+        "e": "composite movement and does not specifically target one part of the capsular complex"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "composite movement and does not specifically target one part of the capsular complex",
+        "chunk_id": 621,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "composite movement and does not specifically target one part of the capsular complex"
+      },
+      "all_retrieved_chunk_ids": [
+        621,
+        572,
+        618,
+        955,
+        619,
+        577,
+        616,
+        295
+      ],
+      "gold_chunk_ids": [
+        621
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Shoulderdoc - Shoulder Rehab Book.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which postural strategy is explicitly recommended to reduce compensatory muscle strategies in early post-operative shoulder rehabilitation?",
+      "options": {
+        "a": "Maintaining a level profile with hips down",
+        "b": "Supporting the upper limb with the contra-lateral arm",
+        "c": "Bending the elbow to 90° and rotating the palm up/down",
+        "d": "Extending the wrist backwards and flexing forwards",
+        "e": "Pulling in lower stomach muscles while keeping the lower back curved"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "Supporting the upper limb with the contra-lateral arm",
+        "chunk_id": 569,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Supporting the upper limb with the contra-lateral arm"
+      },
+      "all_retrieved_chunk_ids": [
+        569,
+        570,
+        969,
+        562,
+        563,
+        827,
+        566,
+        814
+      ],
+      "gold_chunk_ids": [
+        569
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Shoulderdoc - Shoulder Rehab Book.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which strategy is specifically mentioned as effective for re-educating elevation in patients with high pain levels or longstanding shoulder symptoms during the 'Standing to sitting taking the arms into elevation' exercise?",
+      "options": {
+        "a": "Resisted shoulder abduction",
+        "b": "Scapular stabilization",
+        "c": "Active assisted range of motion",
+        "d": "Dissociating the body from the arm",
+        "e": "Isometric shoulder flexion"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "Dissociating the body from the arm",
+        "chunk_id": 598,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "Dissociating the body from the arm"
+      },
+      "all_retrieved_chunk_ids": [
+        598,
+        760,
+        807,
+        44,
+        603,
+        805,
+        726,
+        777
+      ],
+      "gold_chunk_ids": [
+        598
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Shoulderdoc - Shoulder Rehab Book.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "What is the basis for treatment tips or comments when no relevant evidence exists for shoulder exercises?",
+      "options": {
+        "a": "Systematic reviews",
+        "b": "Clinical experience of the authors",
+        "c": "Randomized controlled trials",
+        "d": "Patient self-reports",
+        "e": "Guidelines from professional associations"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "clinical experience of the authors",
+        "chunk_id": 565,
+        "document": "Shoulderdoc - Shoulder Rehab Book.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Clinical experience of the authors"
+      },
+      "all_retrieved_chunk_ids": [
+        565,
+        564,
+        566,
+        562,
+        87,
+        433,
+        500,
+        502
+      ],
+      "gold_chunk_ids": [
+        565
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Shoulderdoc - Shoulder Rehab Book.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which clinical component is most helpful in classifying subacromial pain syndrome in patients with overuse/overload?",
+      "options": {
+        "a": "Subjective examination",
+        "b": "Objective examination",
+        "c": "Imaging findings",
+        "d": "Clinical findings that would be most helpful in classifying these patients would primarily be found in the subjective examination",
+        "e": "Muscle strength testing"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "Clinical findings that would be most helpful in classifying these patients would primarily be found in the subjective examination",
+        "chunk_id": 662,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "Clinical findings that would be most helpful in classifying these patients would primarily be found in the subjective examination"
+      },
+      "all_retrieved_chunk_ids": [
+        662,
+        661,
+        670,
+        655,
+        658,
+        41,
+        817,
+        659
+      ],
+      "gold_chunk_ids": [
+        662
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-8B_20260405_122116.json"
+    },
+    {
+      "question": "Which anatomical structures create an important force couple to produce scapular upward rotation during arm elevation in subacromial pain syndrome?",
+      "options": {
+        "a": "Serratus anterior and rhomboids",
+        "b": "Middle trapezius and levator scapulae",
+        "c": "Rhomboids and pectoralis minor",
+        "d": "Teres minor and infraspinatus",
+        "e": "lower fibers of serratus anterior and lower trapezius in conjunction with the upper trapezius muscles"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "lower fibers of serratus anterior and lower trapezius in conjunction with the upper trapezius muscles",
+        "chunk_id": 664,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "lower fibers of serratus anterior and lower trapezius in conjunction with the upper trapezius muscles"
+      },
+      "all_retrieved_chunk_ids": [
+        664,
+        693,
+        695,
+        694,
+        1025,
+        1002,
+        115,
+        797
+      ],
+      "gold_chunk_ids": [
+        664
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which SAP classifications are prioritized in the decision tree model for initial intervention according to the authors?",
+      "options": {
+        "a": "SAP with overuse/overload and SAP with mobility deficits classifications",
+        "b": "SAP with rotator cuff tear",
+        "c": "SAP with nerve entrapment",
+        "d": "SAP with adhesive capsulitis",
+        "e": "SAP with systemic inflammation"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "SAP with overuse/overload and SAP with mobility deficits classifications",
+        "chunk_id": 670,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "SAP with overuse/overload and SAP with mobility deficits classifications"
+      },
+      "all_retrieved_chunk_ids": [
+        670,
+        674,
+        675,
+        655,
+        659,
+        41,
+        475,
+        672
+      ],
+      "gold_chunk_ids": [
+        670
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which structures' tightness is proposed to cause anterosuperior humeral translation toward the coracoid process and increased scapular anterior tilt in SAP with mobility deficits?",
+      "options": {
+        "a": "Pectoralis minor and subscapularis",
+        "b": "Latissimus dorsi and teres major",
+        "c": "Serratus anterior and lower trapezius",
+        "d": "Infraspinatus and teres minor",
+        "e": "Posteroinferior capsule and posterior rotator cuff muscles"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "posteroinferior capsule and posterior rotator cuff muscles",
+        "chunk_id": 667,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "Posteroinferior capsule and posterior rotator cuff muscles"
+      },
+      "all_retrieved_chunk_ids": [
+        667,
+        801,
+        115,
+        786,
+        116,
+        269,
+        107,
+        689
+      ],
+      "gold_chunk_ids": [
+        667
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which ICF classification is used for SAP with mobility deficits?",
+      "options": {
+        "a": "Adhesive capsulitis stages",
+        "b": "Shoulder stability and movement coordination impairments",
+        "c": "Rotator cuff tendinopathy classification",
+        "d": "Subacromial bursitis classification",
+        "e": "Shoulder impingement classification"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "shoulder stability and movement coordination impairments",
+        "chunk_id": 668,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Shoulder stability and movement coordination impairments"
+      },
+      "all_retrieved_chunk_ids": [
+        667,
+        670,
+        668,
+        665,
+        663,
+        41,
+        660,
+        16
+      ],
+      "gold_chunk_ids": [
+        668
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "Which standardized movement assessment tool is recommended to identify total body mobility impairments contributing to subacromial pain syndrome?",
+      "options": {
+        "a": "Selective Functional Movement Assessment (SFMA)",
+        "b": "Neer's Sign",
+        "c": "Shoulder Pain and Disability Index (SPADI)",
+        "d": "Hawkins-Kennedy Test",
+        "e": "Y-Balance Test"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "Selective Functional Movement Assessment (SFMA)",
+        "chunk_id": 669,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Selective Functional Movement Assessment (SFMA)"
+      },
+      "all_retrieved_chunk_ids": [
+        669,
+        670,
+        655,
+        661,
+        668,
+        667,
+        0,
+        101
+      ],
+      "gold_chunk_ids": [
+        669
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which assessment is emphasized over special tests for diagnosing SAP with movement coordination deficits?",
+      "options": {
+        "a": "Special tests for pathoanatomical source",
+        "b": "Dynamic scapular dyskinesis observation",
+        "c": "Static scapular position analysis",
+        "d": "Assessment of scapular dyskinesia",
+        "e": "Kibler Type I-III classification"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "Assessment of scapular dyskinesia",
+        "chunk_id": 663,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "Assessment of scapular dyskinesia"
+      },
+      "all_retrieved_chunk_ids": [
+        663,
+        665,
+        667,
+        669,
+        668,
+        672,
+        670,
+        661
+      ],
+      "gold_chunk_ids": [
+        663
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which classification is used to describe SAP subtypes in the proposed system?",
+      "options": {
+        "a": "SAP with overuse/overload",
+        "b": "SAP with nerve impingement",
+        "c": "SAP with movement coordination deficits",
+        "d": "SAP with muscle performance deficits",
+        "e": "SAP with mobility deficits"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "SAP with mobility deficits",
+        "chunk_id": 655,
+        "document": "Subacromial pain syndrome.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "SAP with mobility deficits"
+      },
+      "all_retrieved_chunk_ids": [
+        674,
+        655,
+        667,
+        670,
+        665,
+        675,
+        659,
+        658
+      ],
+      "gold_chunk_ids": [
+        655
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Subacromial pain syndrome.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "Which exercise strongly activates the lower trapezius when performed in the prone-lying position with the shoulder at 90° abduction and elbow flexed 90°?",
+      "options": {
+        "a": "Diagonal exercises (flexion, abduction, external rotation)",
+        "b": "Full elevation of the arm above the head in prone-lying",
+        "c": "Horizontal abduction in prone-lying with shoulder external rotation",
+        "d": "Rowing action in seated or prone-lying position",
+        "e": "External rotation in the prone-lying position with the shoulder positioned at 90 ° abduction and the elbow flexed 90 °"
+      },
+      "gold_answer": {
+        "Answer": "e",
+        "Text_Answer": "External rotation in the prone-lying position with the shoulder positioned at 90 ° abduction and the elbow flexed 90 °",
+        "chunk_id": 991,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "e",
+        "Text_Answer": "External rotation in the prone-lying position with the shoulder positioned at 90 ° abduction and the elbow flexed 90 °"
+      },
+      "all_retrieved_chunk_ids": [
+        991,
+        588,
+        995,
+        990,
+        852,
+        1005,
+        992,
+        957
+      ],
+      "gold_chunk_ids": [
+        991
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Qwen3-14B_20260409_135417.json"
+    },
+    {
+      "question": "Which anatomical location is tender in the acute phase of glenohumeral joint arthritis?",
+      "options": {
+        "a": "Supraspinatus tendon",
+        "b": "Fornix immediately below the edge of the acromion process between the attachments of the posterior and middle deltoid",
+        "c": "Coracoid process",
+        "d": "Scapula",
+        "e": "Not applicable in this clinical context"
+      },
+      "gold_answer": {
+        "Answer": "b",
+        "Text_Answer": "fornix immediately below the edge of the acromion process between the attachments of the posterior and middle deltoid",
+        "chunk_id": 703,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "b",
+        "Text_Answer": "Fornix immediately below the edge of the acromion process between the attachments of the posterior and middle deltoid"
+      },
+      "all_retrieved_chunk_ids": [
+        703,
+        736,
+        155,
+        678,
+        199,
+        256,
+        123,
+        228
+      ],
+      "gold_chunk_ids": [
+        703
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Qwen3-8B_20260408_174816.json"
+    },
+    {
+      "question": "What is the primary postoperative precaution for patients undergoing Thermally Assisted Capsular Tightening regarding range of motion (ROM) exercises?",
+      "options": {
+        "a": "extremely cautious with ROM exercises for the first 4 to 6 weeks postoperatively",
+        "b": "Complete immobilization while sleeping for 2 weeks or more",
+        "c": "Progressing based on tissue quality and instability direction",
+        "d": "Extreme caution with ROM exercises for 4-6 weeks postoperatively",
+        "e": "Postponing ROM for 2 weeks or more if needed"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "extremely cautious with ROM exercises for the first 4 to 6 weeks postoperatively",
+        "chunk_id": 915,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "extremely cautious with ROM exercises for the first 4 to 6 weeks postoperatively"
+      },
+      "all_retrieved_chunk_ids": [
+        915,
+        933,
+        764,
+        767,
+        71,
+        718,
+        729,
+        81
+      ],
+      "gold_chunk_ids": [
+        915
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Qwen3-14B_20260408_190938.json"
+    },
+    {
+      "question": "Which action is recommended when the shoulder elevates beyond 90° during scapular plane exercises?",
+      "options": {
+        "a": "Externally rotate to avoid impingement of the greater tubercle against the acromion",
+        "b": "Scapular depression to reduce glenohumeral subluxation",
+        "c": "Internal rotation to prevent acromion impingement",
+        "d": "Shoulder flexion to align with the glenoid fossa",
+        "e": "Coracoid process stabilization to prevent capsular strain"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "Externally rotate to avoid impingement of the greater tubercle against the acromion",
+        "chunk_id": 1010,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Externally rotate to avoid impingement of the greater tubercle against the acromion"
+      },
+      "all_retrieved_chunk_ids": [
+        1010,
+        976,
+        1008,
+        991,
+        1013,
+        123,
+        765,
+        975
+      ],
+      "gold_chunk_ids": [
+        1010
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Qwen3-8B_20260405_122116.json"
+    },
+    {
+      "question": "Which structure provides dynamic stabilization of the AC and SC joints?",
+      "options": {
+        "a": "Deltoid",
+        "b": "Biceps brachii",
+        "c": "No muscles provide dynamic stabilization of the AC and SC joints",
+        "d": "Rotator cuff",
+        "e": "Sternocleidomastoid"
+      },
+      "gold_answer": {
+        "Answer": "c",
+        "Text_Answer": "No muscles provide dynamic stabilization of the AC and SC joints",
+        "chunk_id": 935,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "c",
+        "Text_Answer": "No muscles provide dynamic stabilization of the AC and SC joints"
+      },
+      "all_retrieved_chunk_ids": [
+        684,
+        935,
+        681,
+        1025,
+        683,
+        934,
+        259,
+        735
+      ],
+      "gold_chunk_ids": [
+        935
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    },
+    {
+      "question": "Which activity limitation is associated with rotator cuff rupture?",
+      "options": {
+        "a": "Inability to reach or lift objects to the level of horizontal",
+        "b": "Restricted ability in sports activities",
+        "c": "Possibility of recurrence when replicating the dislocating position",
+        "d": "Discomfort or pain when sleeping on the involved side",
+        "e": "Restricted ability in pushing activities"
+      },
+      "gold_answer": {
+        "Answer": "a",
+        "Text_Answer": "inability to reach or lift objects to the level of horizontal",
+        "chunk_id": 882,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "a",
+        "Text_Answer": "Inability to reach or lift objects to the level of horizontal"
+      },
+      "all_retrieved_chunk_ids": [
+        882,
+        229,
+        837,
+        864,
+        100,
+        881,
+        283,
+        772
+      ],
+      "gold_chunk_ids": [
+        882
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Qwen3-8B_20260405_122116.json"
+    },
+    {
+      "question": "Which muscle group is emphasized on for rhythmic contracting and relaxing to help stimulate blood flow and prevent circulatory stasis?",
+      "options": {
+        "a": "Deltoid",
+        "b": "Triceps",
+        "c": "Biceps",
+        "d": "all muscle groups of the shoulder and adjacent regions",
+        "e": "Pectoralis Major"
+      },
+      "gold_answer": {
+        "Answer": "d",
+        "Text_Answer": "all muscle groups of the shoulder and adjacent regions",
+        "chunk_id": 711,
+        "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf"
+      },
+      "generated_answer": {
+        "Answer": "d",
+        "Text_Answer": "all muscle groups of the shoulder and adjacent regions"
+      },
+      "all_retrieved_chunk_ids": [
+        711,
+        974,
+        977,
+        646,
+        847,
+        804,
+        966,
+        978
+      ],
+      "gold_chunk_ids": [
+        711
+      ],
+      "retrieval_correct": true,
+      "answer_letter_correct": true,
+      "answer_text_correct": true,
+      "fully_correct": true,
+      "document": "Therapeutic_exercise_Foundations_and_techniques_by_Colby_Lynn_Allen-572-650.pdf",
+      "source_file": "eval_Mistral-7B-Instruct-v0.3_20260405_210417.json"
+    }
+  ]
+}
