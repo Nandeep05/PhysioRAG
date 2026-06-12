@@ -227,21 +227,6 @@ PhysioRAG/
     └── gold_standard/                ← Generated questions
 ```
 
----
-
-## Citation
-
-If you use this pipeline in your research, please cite:
-
-```
-PhysioRAG: Automated Medical LLM Evaluation Pipeline
-Author: [Your Name]
-Institution: FAU Erlangen-Nürnberg
-Year: 2026
-```
-
----
-
 ## Support
 
 - **Supervisor questions:** See PIPELINE_BREAKDOWN.md → Supervisor Summary section
