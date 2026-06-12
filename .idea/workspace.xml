@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ac0d5b-485f-4a62-9e18-c7de155b5662" name="Changes" comment="Chore: Initial git commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8ac0d5b-485f-4a62-9e18-c7de155b5662" name="Changes" comment="Chore: Initial git commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -405,7 +403,7 @@
       <workItem from="1780896986574" duration="7367000" />
       <workItem from="1781085619123" duration="1368000" />
       <workItem from="1781174330882" duration="1366000" />
-      <workItem from="1781269789798" duration="4553000" />
+      <workItem from="1781269789798" duration="4867000" />
     </task>
     <task id="LOCAL-00001" summary="Chore: Initial git commit">
       <option name="closed" value="true" />
@@ -415,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781274773058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chore: Initial git commit">
+      <option name="closed" value="true" />
+      <created>1781275562376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781275562376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
