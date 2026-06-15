@@ -202,7 +202,7 @@ ERROR: No evaluation files found in Evaluation_sets/
 ## Documentation
 
 - **[PIPELINE_BREAKDOWN.md](PIPELINE_BREAKDOWN.md)** — Full technical reference (phases, file structure, infrastructure)
-- **[CLI_REFERENCE.md](CLI_REFERENCE.md)** — Command-line options reference
+- **[CLI_REFERENCE.md](archive/CLI_REFERENCE.md)** — Command-line options reference
 
 ---
 

@@ -153,7 +153,7 @@ def main():
     parser.add_argument("--predictions", required=True, help="Path to evaluation_generated_answers.json")
     parser.add_argument(
         "--output",
-        default="src/evaluation/pipeline_top3_chunk_evaluation_results.json",
+        default="Evaluation_sets/eval_default.json",
         help="Output path for evaluation JSON",
     )
     args = parser.parse_args()

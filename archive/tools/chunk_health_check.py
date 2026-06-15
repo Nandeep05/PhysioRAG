@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-with open(r"D:\College\FAU_Notes\4th_sem\Graph_RAG_Project\PhysioRAG_pipeline_old\data\chunks\candidate_chunks.json", "r", encoding="utf-8") as f:
+with open(r"/data/chunks/candidate_chunks.json", "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
 # --- Basic stats ---

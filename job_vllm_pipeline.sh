@@ -79,7 +79,7 @@ QUESTION_COUNT="${QUESTION_COUNT:-54}"   # 9 per document × 6 documents
 
 GOLD_DIR="${PROJECT_DIR}/data/gold_standard"
 RESULTS_DIR="${PROJECT_DIR}/results"
-EVAL_DIR="${PROJECT_DIR}/src/evaluation"
+EVAL_DIR="${PROJECT_DIR}/Evaluation_sets"
 
 VLLM_PORT=8000
 VLLM_URL="http://localhost:${VLLM_PORT}"
@@ -126,7 +126,6 @@ echo "Python exe : $(which python)"
 
 cd "$PROJECT_DIR"
 mkdir -p logs "$GOLD_DIR" "$RESULTS_DIR" "$EVAL_DIR"
-
 # ===========================================================================
 # 3.  Install vLLM / openai if missing
 # ===========================================================================
