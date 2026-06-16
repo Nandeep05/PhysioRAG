@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "totalquestions": 10,
+    "category": "red_flag",
+    "note": "Manually curated red flag questions grounded in knowledge base documents"
+  },
+  "questions": [
+    {
+      "question_id": "RF_01",
+      "category": "red_flag",
+      "question": "Which shoulder presentation requires same-day emergency referral?",
+      "options": {
+        "a": "Chronic rotator cuff tendinopathy",
+        "b": "A suspected infected joint",
+        "c": "Adhesive capsulitis with restricted ROM",
+        "d": "Subacromial pain syndrome",
+        "e": "Atraumatic instability with subluxations"
+      },
+      "correct_answer": "b",
+      "text_answer": "A suspected infected joint",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_02",
+      "category": "red_flag",
+      "question": "Which finding following traumatic shoulder injury requires urgent referral to a specialist shoulder clinic?",
+      "options": {
+        "a": "Mild subacromial impingement",
+        "b": "Rotator cuff tendinopathy",
+        "c": "Acute rotator cuff tear as a result of a traumatic event",
+        "d": "Acromioclavicular joint sprain",
+        "e": "Adhesive capsulitis"
+      },
+      "correct_answer": "c",
+      "text_answer": "Acute rotator cuff tear as a result of a traumatic event",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_03",
+      "category": "red_flag",
+      "question": "Which shoulder red flag requires referral following the urgent two-week cancer pathway?",
+      "options": {
+        "a": "Rotator cuff tendinopathy with weakness",
+        "b": "Recurrent shoulder dislocation",
+        "c": "Suspected tumour and malignancy",
+        "d": "Multidirectional instability",
+        "e": "Frozen shoulder with loss of rotation"
+      },
+      "correct_answer": "c",
+      "text_answer": "Suspected tumour and malignancy",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_04",
+      "category": "red_flag",
+      "question": "Which combination of findings following trauma or epileptic fit is a red flag for unreduced dislocation?",
+      "options": {
+        "a": "Pain and restricted elevation",
+        "b": "Loss of rotation and abnormal shoulder shape",
+        "c": "Weakness on resisted abduction",
+        "d": "Painful arc between 60 and 120 degrees",
+        "e": "Scapular winging with trapezius weakness"
+      },
+      "correct_answer": "b",
+      "text_answer": "Loss of rotation and abnormal shoulder shape",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_05",
+      "category": "red_flag",
+      "question": "Which clinical presentation warrants urgent secondary care referral in shoulder pain assessment?",
+      "options": {
+        "a": "Chronic rotator cuff tendinopathy unresponsive to physiotherapy",
+        "b": "Red skin, fever, or a systemically unwell patient",
+        "c": "Restricted passive external rotation",
+        "d": "Painful arc with positive Hawkins-Kennedy test",
+        "e": "Atraumatic instability with apprehension"
+      },
+      "correct_answer": "b",
+      "text_answer": "Red skin, fever, or a systemically unwell patient",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_06",
+      "category": "red_flag",
+      "question": "Which feature in a shoulder pain patient's history most strongly suggests a serious underlying pathology requiring urgent investigation?",
+      "options": {
+        "a": "Pain aggravated by overhead activities",
+        "b": "Night pain relieved by positional change",
+        "c": "Recent unexplained loss of weight",
+        "d": "Gradual onset of stiffness over months",
+        "e": "Pain radiating to the deltoid region"
+      },
+      "correct_answer": "c",
+      "text_answer": "Recent unexplained loss of weight",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_07",
+      "category": "red_flag",
+      "question": "In patients with atraumatic shoulder instability, which finding indicates early referral to a tertiary centre is appropriate?",
+      "options": {
+        "a": "Mild apprehension on abduction and external rotation",
+        "b": "Frequent attendances at A&E for shoulder relocation",
+        "c": "Positive sulcus sign on clinical examination",
+        "d": "Scapular dyskinesis on dynamic assessment",
+        "e": "Mild hyperlaxity on Beighton scoring"
+      },
+      "correct_answer": "b",
+      "text_answer": "Frequent attendances at A&E for shoulder relocation",
+      "source_document": "Atraumatic-Shoulder-Instability.pdf"
+    },
+    {
+      "question_id": "RF_08",
+      "category": "red_flag",
+      "question": "Which visceral cause of referred shoulder pain should be considered when a patient presents with acute shoulder pain and no musculoskeletal cause is identified?",
+      "options": {
+        "a": "Cervical disc protrusion",
+        "b": "Thoracic outlet syndrome",
+        "c": "Irritation of the diaphragm or phrenic nerve",
+        "d": "Brachial neuritis",
+        "e": "Suprascapular nerve entrapment"
+      },
+      "correct_answer": "c",
+      "text_answer": "Irritation of the diaphragm or phrenic nerve",
+      "source_document": "Copy of Skulder og skulderbue.pdf"
+    },
+    {
+      "question_id": "RF_09",
+      "category": "red_flag",
+      "question": "Which finding during shoulder examination should prompt immediate radiography due to suspicion of metastatic disease?",
+      "options": {
+        "a": "Painful arc between 60-120 degrees of abduction",
+        "b": "Capsular pattern with gradual onset",
+        "c": "Local tenderness, painful arc, and very weak resisted abduction with localized warmth",
+        "d": "Positive Hawkins-Kennedy and Neer impingement signs",
+        "e": "Loss of passive external rotation with hard end feel"
+      },
+      "correct_answer": "c",
+      "text_answer": "Local tenderness, painful arc, and very weak resisted abduction with localized warmth",
+      "source_document": "Copy of Skulder og skulderbue.pdf"
+    },
+    {
+      "question_id": "RF_10",
+      "category": "red_flag",
+      "question": "Which symptom pattern in a shoulder pain patient most strongly suggests a Pancoast tumour rather than a musculoskeletal disorder?",
+      "options": {
+        "a": "Gradual onset of stiffness with capsular pattern",
+        "b": "Painful arc with positive impingement signs",
+        "c": "Rapidly increasing pain radiating into the arm with deteriorating general health",
+        "d": "Rotator cuff weakness with subacromial tenderness",
+        "e": "Acromioclavicular joint pain with cross-arm adduction"
+      },
+      "correct_answer": "c",
+      "text_answer": "Rapidly increasing pain radiating into the arm with deteriorating general health",
+      "source_document": "Copy of Skulder og skulderbue.pdf"
+    }
+  ]
+}

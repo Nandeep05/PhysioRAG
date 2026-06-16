@@ -33,7 +33,7 @@ clinical context below.
 RULES:
 1. Base your answer ONLY on the provided context
 2. If the context does not contain enough information to answer,
-   say: "The available clinical guidelines do not specify this."
+   say: "The available cli4nical guidelines do not specify this."
 3. Be concise and clinically accurate
 4. Do NOT use bullet points — write in clear paragraph form
 5. Do NOT mention the source documents by name

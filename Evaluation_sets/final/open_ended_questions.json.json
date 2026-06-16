@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "total": 14,
+    "source": "Collected from physiotherapist \u2014 cleaned and expanded",
+    "type": "open_ended",
+    "categories": [
+      "Activity & Movement",
+      "Exercise Programme",
+      "Alternative Treatments",
+      "Red Flags & Safety",
+      "Prognosis"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "OQ_01",
+      "category": "Activity & Movement",
+      "question": "Which shoulder movements should be avoided during the early stages of rotator cuff rehabilitation?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_02",
+      "category": "Activity & Movement",
+      "question": "Which daily activities should patients with adhesive capsulitis avoid to prevent worsening of symptoms?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_03",
+      "category": "Activity & Movement",
+      "question": "Can patients with subacromial pain syndrome continue overhead sports activities during rehabilitation?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_04",
+      "category": "Exercise Programme",
+      "question": "How crucial is adherence to a home exercise programme for recovery from shoulder tendinopathy?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_05",
+      "category": "Exercise Programme",
+      "question": "What are the signs that a shoulder rehabilitation exercise programme is too intense or causing harm?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_06",
+      "category": "Exercise Programme",
+      "question": "What are the signs that a shoulder rehabilitation programme is progressing in the right direction?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_07",
+      "category": "Exercise Programme",
+      "question": "Is there a risk of doing too much exercise when rehabilitating a shoulder injury?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_08",
+      "category": "Alternative Treatments",
+      "question": "Can massage therapy help in the management of shoulder pain and rotator cuff disorders?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_09",
+      "category": "Alternative Treatments",
+      "question": "Are there treatment modalities beyond physiotherapy that can help speed up recovery from shoulder pain?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_10",
+      "category": "Alternative Treatments",
+      "question": "Can a chiropractor provide effective treatment for shoulder pain and rotator cuff tendinopathy?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_11",
+      "category": "Red Flags & Safety",
+      "question": "Which signs and symptoms in a shoulder pain patient indicate that the condition may be serious and require urgent referral?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_12",
+      "category": "Red Flags & Safety",
+      "question": "Is shoulder pain ever a sign of a dangerous underlying condition requiring immediate medical attention?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_13",
+      "category": "Prognosis",
+      "question": "What factors influence how quickly a patient recovers from adhesive capsulitis?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_14",
+      "category": "Prognosis",
+      "question": "What is the typical recovery timeline for patients with subacromial pain syndrome undergoing physiotherapy?",
+      "source": "physio_collected"
+    }
+  ]
+}

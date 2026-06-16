@@ -1,15 +1,16 @@
-cat > ~/Shoulder-RAG-HPC/job_open_questions.sh << 'EOF'
+cat > ~/Shoulder-RAG-HPC/job_red_flag_questions.sh << 'EOF'
 #!/bin/bash
-#SBATCH --job-name=physiorag-open-questions
+#SBATCH --job-name=physiorag-redflag-questions
 #SBATCH --cpus-per-task=8
 #SBATCH --time=02:00:00
-#SBATCH --output=logs/open_questions_%j.log
-#SBATCH --error=logs/open_questions_%j.err
+#SBATCH --output=logs/redflag_questions_%j.log
+#SBATCH --error=logs/redflag_questions_%j.err
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH [--mail-user=nandeep.somashekar@fau.de](mailto:--mail-user=nandeep.somashekar@fau.de)
 
 set -euo pipefail
 
+# Proxies and offline mode
 export http_proxy=http://proxy:80
 export https_proxy=http://proxy:80
 export HTTP_PROXY=http://proxy:80
@@ -28,26 +29,29 @@ VLLM_PORT=8000
 VLLM_URL="http://localhost:${VLLM_PORT}"
 TENSOR_PARALLEL="${TENSOR_PARALLEL:-1}"
 
+EVAL_INTERMEDIATE="${PROJECT_DIR}/Evaluation_sets/intermediate"
 EVAL_FINAL="${PROJECT_DIR}/Evaluation_sets/final"
-SEED_FILE="${SEED_FILE:-${EVAL_FINAL}/open_ended_seed_physio.json}"
-OUTPUT_FILE="${EVAL_FINAL}/open_ended_questions.json"
+CHUNKS_FILE="${EVAL_INTERMEDIATE}/candidate_chunks_redflags.json"
+OUTPUT_FILE="${EVAL_FINAL}/red_flag_questions.json"
 
 echo "============================================================"
-echo "  PhysioRAG – Open Question Generation"
+echo "  PhysioRAG – Red-Flag Question Generation"
 echo "  Job ID   : $SLURM_JOB_ID"
 echo "  Model    : $MODEL_ID"
-echo "  Seed     : $SEED_FILE"
+echo "  Chunks   : $CHUNKS_FILE"
 echo "  Output   : $OUTPUT_FILE"
 echo "  Started  : $(date)"
 echo "============================================================"
 
+# Activate conda
 source "$HOME/miniconda3/etc/profile.d/conda.sh"
 conda activate "$CONDA_ENV"
 export PYTHONNOUSERSITE=1
 
 cd "$PROJECT_DIR"
-mkdir -p logs "$EVAL_FINAL"
+mkdir -p logs "$EVAL_INTERMEDIATE" "$EVAL_FINAL"
 
+# Start vLLM server
 echo ">>> Starting vLLM server..."
 python -m vllm.entrypoints.openai.api_server \
     --model "$MODEL_ID" \
@@ -58,10 +62,11 @@ python -m vllm.entrypoints.openai.api_server \
     --max-model-len 4096 \
     --gpu-memory-utilization 0.90 \
     --trust-remote-code \
-    > "logs/vllm_server_open_${SLURM_JOB_ID}.log" 2>&1 &
+    > "logs/vllm_server_redflag_${SLURM_JOB_ID}.log" 2>&1 &
 
 VLLM_PID=$!
 
+# Wait for server
 echo ">>> Waiting for vLLM to be ready..."
 MAX_WAIT=900
 WAITED=0
@@ -80,21 +85,23 @@ echo ">>> vLLM ready! (${WAITED}s)"
 export PHYSIORAG_VLLM_URL="$VLLM_URL"
 export PHYSIORAG_VLLM_MODEL="$MODEL_SHORT"
 
-echo ">>> Generating open-ended questions..."
-python generate_open_questions.py \
+# Generate red-flag questions
+echo ">>> Generating red-flag MCQs..."
+python generate_red_flag_questions.py \
     --provider vllm \
     --model    "$MODEL_SHORT" \
-    --seed     "$SEED_FILE" \
+    --chunks   "$CHUNKS_FILE" \
     --output   "$OUTPUT_FILE"
 
-echo ">>> Open questions saved to: $OUTPUT_FILE"
+echo ">>> Red-flag questions saved to: $OUTPUT_FILE"
 
+# Stop vLLM
 kill $VLLM_PID 2>/dev/null || true
 wait $VLLM_PID 2>/dev/null || true
 
 echo "============================================================"
 echo "  COMPLETE"
-echo "  Open questions : $OUTPUT_FILE"
-echo "  Finished       : $(date)"
+echo "  Red-flag questions : $OUTPUT_FILE"
+echo "  Finished           : $(date)"
 echo "============================================================"
 EOF

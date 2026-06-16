@@ -27,7 +27,7 @@ RAW_DIR = os.path.join(DATA_DIR, "raw")
 PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 CHUNKS_DIR = os.path.join(DATA_DIR, "chunks")
 FAISS_INDEX_PATH = os.path.join(CHUNKS_DIR, "faiss_index")
-CANDIDATE_CHUNKS_PATH = os.path.join(CHUNKS_DIR, "candidate_chunks.json")
+CANDIDATE_CHUNKS_PATH = os.path.join(CHUNKS_DIR, "candidate_chunks_clean.json")
 
 # Create directories if they don't exist
 os.makedirs(DATA_DIR, exist_ok=True)

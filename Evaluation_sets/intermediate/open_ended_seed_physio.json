@@ -1,0 +1,202 @@
+{
+  "questions": [
+    {
+      "question_id": "OQ_01",
+      "category": "Activity & Movement",
+      "question": "When will I be able to move my shoulder normally again?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_02",
+      "category": "Activity & Movement",
+      "question": "Which movements should I avoid right now?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_03",
+      "category": "Activity & Movement",
+      "question": "Are there any activities I should not do while this is healing?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_04",
+      "category": "Activity & Movement",
+      "question": "Can I still do overhead movements?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_05",
+      "category": "Activity & Movement",
+      "question": "When can I go back to sports or gym training?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_06",
+      "category": "Activity & Movement",
+      "question": "What daily tasks should I be careful with?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_07",
+      "category": "Activity & Movement",
+      "question": "Should I stop using my arm for certain activities?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_08",
+      "category": "Exercise Programme",
+      "question": "How often do I need to do my exercises?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_09",
+      "category": "Exercise Programme",
+      "question": "Is it really important that I do the exercises regularly?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_10",
+      "category": "Exercise Programme",
+      "question": "How much exercise is too much?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_11",
+      "category": "Exercise Programme",
+      "question": "How do I know if the exercises are helping?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_12",
+      "category": "Exercise Programme",
+      "question": "How do I know if I’m overdoing it?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_13",
+      "category": "Exercise Programme",
+      "question": "What signs show that the rehab is going in the right direction?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_14",
+      "category": "Exercise Programme",
+      "question": "What signs show that the rehab is going in the wrong direction?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_15",
+      "category": "Exercise Programme",
+      "question": "Can I keep doing my other exercises while recovering?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_16",
+      "category": "Alternative Treatments",
+      "question": "Can massage help?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_17",
+      "category": "Alternative Treatments",
+      "question": "Would a chiropractor help me?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_18",
+      "category": "Alternative Treatments",
+      "question": "Is there anything else that can help besides physiotherapy?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_19",
+      "category": "Alternative Treatments",
+      "question": "Are there other treatment options that could speed things up?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_20",
+      "category": "Alternative Treatments",
+      "question": "Can manual therapy help my shoulder?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_21",
+      "category": "Alternative Treatments",
+      "question": "Should I try anything else for pain relief?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_22",
+      "category": "Red Flags & Safety",
+      "question": "Could this be something serious?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_23",
+      "category": "Red Flags & Safety",
+      "question": "Is shoulder pain ever a sign of something dangerous?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_24",
+      "category": "Red Flags & Safety",
+      "question": "When should I worry and get urgent help?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_25",
+      "category": "Red Flags & Safety",
+      "question": "What symptoms mean I should be referred quickly?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_26",
+      "category": "Red Flags & Safety",
+      "question": "Are there warning signs I should watch for?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_27",
+      "category": "Red Flags & Safety",
+      "question": "When is shoulder pain not just a normal injury?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_28",
+      "category": "Prognosis",
+      "question": "How long will this take to get better?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_29",
+      "category": "Prognosis",
+      "question": "Will there be any long-term damage?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_30",
+      "category": "Prognosis",
+      "question": "What affects how fast I recover?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_31",
+      "category": "Prognosis",
+      "question": "Is this recovery different for different patients?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_32",
+      "category": "Prognosis",
+      "question": "How long does this usually last?",
+      "source": "physio_collected"
+    },
+    {
+      "question_id": "OQ_33",
+      "category": "Prognosis",
+      "question": "What makes recovery slower or faster?",
+      "source": "physio_collected"
+    }
+  ]
+}
